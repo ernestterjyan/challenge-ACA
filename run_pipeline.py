@@ -61,5 +61,6 @@ if __name__ == "__main__":
 
     pipeline = Pipeline()
     pipeline.run(args.data_path, test=args.test, save_model=args.save_model)
+# - Accuracy: `0.89875`
+# - ROC-AUC: `0.9402865176061052`
 
-# 0.84875, ROC-AUC: 0.76265533903771966
