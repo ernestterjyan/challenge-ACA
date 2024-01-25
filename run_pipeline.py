@@ -17,7 +17,7 @@ class Pipeline:
         df = pd.read_csv(data_path)
 
         if not test:
-            X = df.drop(columns=['In-hospital_death','Length_of_stay'])
+            X = df.drop(columns=['In-hospital_death', 'Survival', 'SOFA','SAPS-I'])
             y = df['In-hospital_death']
             X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
@@ -62,4 +62,4 @@ if __name__ == "__main__":
     pipeline = Pipeline()
     pipeline.run(args.data_path, test=args.test, save_model=args.save_model)
 
-# 0.90125, ROC-AUC: 0.9432198541851775
+# 0.84875, ROC-AUC: 0.76265533903771966
