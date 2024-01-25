@@ -103,29 +103,29 @@ class ModelSelector:
 
         return best_models
 # '''Best LR:
-# Parameters: {'LR__C': 0.1, 'pca__n_components': 30}
-# Score: 0.8258899996120068
+# Parameters: {'LR__C': 0.1, 'pca__n_components': 30},
+# Score: 0.8244115662252739
 #
 # Best RF:
-# Parameters: {'RF__max_depth': 10, 'RF__n_estimators': 100, 'pca__n_components': 30}
-# Score: 0.8146051790456845
+# Parameters: {'RF__max_depth': 10, 'RF__n_estimators': 100, 'pca__n_components': 30},
+# Score: 0.8164179244473313
 #
 # Best XGB:
-# Parameters: {'XGB__gamma': 0.5, 'XGB__learning_rate': 0.1, 'XGB__max_depth': 3, 'XGB__subsample': 0.8, 'pca__n_components': 30}
-# Score: 0.8295469733852184
+# Parameters: {'XGB__gamma': 1.5, 'XGB__learning_rate': 0.1, 'XGB__max_depth': 3, 'XGB__subsample': 0.9, 'pca__n_components': 30},
+# Score: 0.8342337972790257
 #
 # Best NB:
-# Parameters: {'pca__n_components': 15}
-# Score: 0.7613429860009124
+# Parameters: {'pca__n_components': 5},
+# Score: 0.7642612667543597
 #
 # Best KNN:
-# Parameters: {'KNN__n_neighbors': 7, 'pca__n_components': 15}
-# Score: 0.738622452948715
+# Parameters: {'KNN__n_neighbors': 7, 'pca__n_components': 15},
+# Score: 0.7401959227872019
 #
 # Best SVM:
-# Parameters: {'SVM__C': 0.1, 'SVM__kernel': 'linear', 'pca__n_components': 30}
-# Score: 0.810817077430392
+# Parameters: {'SVM__C': 0.1, 'SVM__kernel': 'linear', 'pca__n_components': 30},
+# Score: 0.8047266336719245
 #
 # Best ANN:
-# Parameters: {'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50,), 'pca__n_components': 15}
-# Score: 0.8076669606734922'''
+# Parameters: {'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50,), 'pca__n_components': 15},
+# Score: 0.8060660491735521'''
