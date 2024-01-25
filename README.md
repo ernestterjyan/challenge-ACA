@@ -13,33 +13,33 @@ This repository contains a machine learning project focused on predicting in-hos
 
 ## Best Models and Hyperparameters
 The following models were identified as the best through grid search, with their respective hyperparameters and scores:
-# '''Best LR:
-# Parameters: {'LR__C': 0.1, 'pca__n_components': 30},
-# Score: 0.8244115662252739
-#
-# Best RF:
-# Parameters: {'RF__max_depth': 10, 'RF__n_estimators': 100, 'pca__n_components': 30},
-# Score: 0.8164179244473313
-#
-# Best XGB:
-# Parameters: {'XGB__gamma': 1.5, 'XGB__learning_rate': 0.1, 'XGB__max_depth': 3, 'XGB__subsample': 0.9, 'pca__n_components': 30},
-# Score: 0.8342337972790257
-#
-# Best NB:
-# Parameters: {'pca__n_components': 5},
-# Score: 0.7642612667543597
-#
-# Best KNN:
-# Parameters: {'KNN__n_neighbors': 7, 'pca__n_components': 15},
-# Score: 0.7401959227872019
-#
-# Best SVM:
-# Parameters: {'SVM__C': 0.1, 'SVM__kernel': 'linear', 'pca__n_components': 30},
-# Score: 0.8047266336719245
-#
-# Best ANN:
-# Parameters: {'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50,), 'pca__n_components': 15},
-# Score: 0.8060660491735521'''
+-'''Best LR:
+- Parameters: {'LR__C': 0.1, 'pca__n_components': 30},
+- Score: 0.8244115662252739
+-
+- Best RF:
+- Parameters: {'RF__max_depth': 10, 'RF__n_estimators': 100, 'pca__n_components': 30},
+- Score: 0.8164179244473313
+-
+- Best XGB:
+- Parameters: {'XGB__gamma': 1.5, 'XGB__learning_rate': 0.1, 'XGB__max_depth': 3, 'XGB__subsample': 0.9, 'pca__n_components': 30},
+- Score: 0.8342337972790257
+-
+- Best NB:
+- Parameters: {'pca__n_components': 5},
+- Score: 0.7642612667543597
+-
+- Best KNN:
+- Parameters: {'KNN__n_neighbors': 7, 'pca__n_components': 15},
+- Score: 0.7401959227872019
+-
+- Best SVM:
+- Parameters: {'SVM__C': 0.1, 'SVM__kernel': 'linear', 'pca__n_components': 30},
+- Score: 0.8047266336719245
+-
+- Best ANN:
+- Parameters: {'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50,), 'pca__n_components': 15},
+- Score: 0.8060660491735521'''
 
 ## Ensemble Model Results
 The ensemble model combining LR, RF, and XGB achieved the following results on the test set:
