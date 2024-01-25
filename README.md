@@ -26,7 +26,21 @@ The following models were identified as the best through grid search, with their
   - Parameters: `{'XGB__gamma': 0.5, 'XGB__learning_rate': 0.1, 'XGB__max_depth': 3, 'XGB__subsample': 0.8, 'pca__n_components': 30}`
   - Score: `0.82955`
 
-- (Include others similarly)
+- **Naive Bayes (NB)**
+  - Parameters: `{'pca__n_components': 15}`
+  - Score: `0.76134`
+
+- **K-Nearest Neighbors (KNN)**
+  - Parameters: `{'KNN__n_neighbors': 7, 'pca__n_components': 15}`
+  - Score: `0.73862`
+
+- **Support Vector Machine (SVM)**
+  - Parameters: `{'SVM__C': 0.1, 'SVM__kernel': 'linear', 'pca__n_components': 30}`
+  - Score: `0.81082`
+
+- **Artificial Neural Network (ANN)**
+  - Parameters: `{'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50,), 'pca__n_components': 15}`
+  - Score: `0.80767`
 
 ## Ensemble Model Results
 The ensemble model combining LR, RF, and XGB achieved the following results on the test set:
